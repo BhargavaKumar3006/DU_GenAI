@@ -139,7 +139,7 @@
       <AssemblyReference>CustomGptDocumentTyp.WvKijCoQoR14w5CE1NiwgS</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="932,1016" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="932,1017" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="uisad:DocumentData" Name="ClassficationOutput" />
       <Variable x:TypeArguments="uisad1:IDocumentData(uisascb:CustomGptDocumentTypeD0Be6C0C454549508446Be9Deae8865D)" Name="ExtractionResult" />
@@ -149,7 +149,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="C:\Users\2891\Documents\UiPath\DOC_Using_GenAI\Test" sap:VirtualizedContainerService.HintSize="484,993" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+    <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="C:\Users\2891\Documents\UiPath\DOC_Using_GenAI\Test" sap:VirtualizedContainerService.HintSize="484,994" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
       <ui:ForEachFileX.Body>
         <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
           <ActivityAction.Argument1>
@@ -158,7 +158,7 @@
           <ActivityAction.Argument2>
             <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
           </ActivityAction.Argument2>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,712" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,713" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -194,7 +194,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:LogMessage>
-            <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisascb:CustomGptDocumentTypeD0Be6C0C454549508446Be9Deae8865D" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" ModernDocumentTypeId="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" ProjectTag="{x:Null}" ProjectVersionNumber="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="generative_extractor" ExtractionResults="[ExtractionResult]" FileInput="[LocalResource.FromPath(CurrentFile.ToString)]" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,273" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="00000000-0000-0000-0000-000000000001" TimeoutInSeconds="3600">
+            <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisascb:CustomGptDocumentTypeD0Be6C0C454549508446Be9Deae8865D" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" ModernDocumentTypeId="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" ProjectTag="{x:Null}" ProjectVersionNumber="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="generative_extractor" ExtractionResults="[ExtractionResult]" FileInput="[LocalResource.FromPath(CurrentFile.ToString)]" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,274" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="00000000-0000-0000-0000-000000000001" TimeoutInSeconds="3600">
               <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
                 <InArgument x:TypeArguments="s:Nullable(x:Int32)">
                   <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
