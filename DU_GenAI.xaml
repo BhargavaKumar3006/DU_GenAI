@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="DU_GenAI" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="DU_GenAI_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisascb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType5F745Cc76Faa4448A9247Ef9C582C6De.Bundle;assembly=CustomGptDocumentTyp.WvKijCoQoR14w5CE1NiwgS" xmlns:uisascb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeD034Cce6212D4Bd0903A67Ac8Fcb22Be.Bundle;assembly=CustomGptDocumentTyp.bhmGC25Ld8J14ShrZ4EzLIL3" xmlns:uisascb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType566214Ac7C764A0CB99A7F900989Ef0E.Bundle;assembly=CustomGptDocumentTyp.mvtY43YEk7I1PdW4X3ugcLC2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="DU_GenAI" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="DU_GenAI_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisascb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType04F0950F3751459B962182F6333490D4.Bundle;assembly=CustomGptDocumentTyp.HiUDaHi1dM1aXzOO29jrT02" xmlns:uisascb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeD034Cce6212D4Bd0903A67Ac8Fcb22Be.Bundle;assembly=CustomGptDocumentTyp.bhmGC25Ld8J14ShrZ4EzLIL3" xmlns:uisascb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType566214Ac7C764A0CB99A7F900989Ef0E.Bundle;assembly=CustomGptDocumentTyp.mvtY43YEk7I1PdW4X3ugcLC2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -69,6 +69,9 @@
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType566214Ac7C764A0CB99A7F900989Ef0E.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType7954B9BfBa904Ff2B62B731B5Dde51F0.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType5F745Cc76Faa4448A9247Ef9C582C6De.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeB0D20E6E6Bfd40E69A3505E91A6E172F.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeC48Fa1Dc064B47618Db8Cdab4B5Da467.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType04F0950F3751459B962182F6333490D4.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -151,9 +154,12 @@
       <AssemblyReference>CustomGptDocumentTyp.mvtY43YEk7I1PdW4X3ugcLC2</AssemblyReference>
       <AssemblyReference>CustomGptDocumentTyp.y7JiU3Z3gEM1MZ574TCAWf3</AssemblyReference>
       <AssemblyReference>CustomGptDocumentTyp.WvKijCoQoR14w5CE1NiwgS</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.z21ZIY8uNO1ViN2H48K4Ov</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.qAOfY3r2pTP1WPRa4aSNOo3</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.HiUDaHi1dM1aXzOO29jrT02</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="DU_GenAI" sap:VirtualizedContainerService.HintSize="932,3416" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DU_GenAI" sap:VirtualizedContainerService.HintSize="932,3589" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="[System.DateTime.Today.ToString(&quot;dd-MM-yyyy&quot;)]" Name="Str_Date" />
       <Variable x:TypeArguments="sd:DataTable" Name="PO_Tbl" />
@@ -195,7 +201,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:BuildDataTable>
     </Sequence>
-    <ui:ForEachFileX sap2010:Annotation.AnnotationText="Loop files (PO,Invocies,Payslips)" DisplayName="For Each File in Folder" Filter="*.pdf" Folder="D:\ABK\RPA\DU_GenAI\practice" sap:VirtualizedContainerService.HintSize="570,2080" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+    <ui:ForEachFileX sap2010:Annotation.AnnotationText="Loop files (PO,Invocies,Payslips)" DisplayName="For Each File in Folder" Filter="*.pdf" Folder="D:\ABK\RPA\DU_GenAI\practice" sap:VirtualizedContainerService.HintSize="570,2253" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
       <ui:ForEachFileX.Body>
         <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
           <ActivityAction.Argument1>
@@ -204,7 +210,7 @@
           <ActivityAction.Argument2>
             <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
           </ActivityAction.Argument2>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,1759" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,1932" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="uisad1:DocumentData" Name="ClassficationResult" />
               <Variable x:TypeArguments="x:String" Name="FileName" />
@@ -240,7 +246,7 @@
                 </InArgument>
               </p:ClassifyDocument.RuntimeTenantUrl>
             </p:ClassifyDocument>
-            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[ClassficationResult.DocumentType.Name]" sap:VirtualizedContainerService.HintSize="434,1311" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[ClassficationResult.DocumentType.Name]" sap:VirtualizedContainerService.HintSize="434,1484" sap2010:WorkflowViewState.IdRef="Switch`1_1">
               <Switch.Default>
                 <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
@@ -256,9 +262,9 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence x:Key="PurchaseOrder" DisplayName="PO_Extract_Process" sap:VirtualizedContainerService.HintSize="416,889" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence x:Key="PurchaseOrder" DisplayName="PO_Extract_Process" sap:VirtualizedContainerService.HintSize="416,1062" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <Sequence.Variables>
-                  <Variable x:TypeArguments="uisad:IDocumentData(uisascb:CustomGptDocumentType5F745Cc76Faa4448A9247Ef9C582C6De)" Name="PO_ExtractionResult" />
+                  <Variable x:TypeArguments="uisad:IDocumentData(uisascb:CustomGptDocumentType04F0950F3751459B962182F6333490D4)" Name="PO_ExtractionResult" />
                 </Sequence.Variables>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -267,7 +273,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot; The File name : &quot;+FileName+&quot; &amp; type of document is &quot;+ClassficationResult.DocumentType.Name]" />
-                <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisascb:CustomGptDocumentType5F745Cc76Faa4448A9247Ef9C582C6De" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" ModernDocumentTypeId="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" ProjectTag="{x:Null}" ProjectVersionNumber="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="generative_extractor" ExtractionResults="[PO_ExtractionResult]" FileInput="[LocalResource.FromPath(CurrentFile.ToString)]" GenerateData="True" sap:VirtualizedContainerService.HintSize="382,274" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="00000000-0000-0000-0000-000000000001" TimeoutInSeconds="3600">
+                <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisascb:CustomGptDocumentType04F0950F3751459B962182F6333490D4" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" ModernDocumentTypeId="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" ProjectTag="{x:Null}" ProjectVersionNumber="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="generative_extractor" ExtractionResults="[PO_ExtractionResult]" FileInput="[LocalResource.FromPath(CurrentFile.ToString)]" GenerateData="True" sap:VirtualizedContainerService.HintSize="382,274" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="00000000-0000-0000-0000-000000000001" TimeoutInSeconds="3600">
                   <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
                     <InArgument x:TypeArguments="s:Nullable(x:Int32)">
                       <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
@@ -281,6 +287,7 @@
                     <InArgument x:TypeArguments="x:String" x:Key="CustomerName">What is the CustomerName?</InArgument>
                     <InArgument x:TypeArguments="x:String" x:Key="CustomerAddress">What is the address of customer</InArgument>
                     <InArgument x:TypeArguments="x:String" x:Key="TotalAmount">Find value of total amount or Grand Total</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="TableItems">From tha table find : Item No or Order code or Code, Item or Product descrption or Descrption, Quantity or Qty, Unit Price,Total Amount</InArgument>
                   </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
                   <p:ExtractDocumentDataWithDocumentData.RuntimeAssetPath>
                     <InArgument x:TypeArguments="x:String">
@@ -294,6 +301,7 @@
                   </p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
                 </p:ExtractDocumentDataWithDocumentData>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[New With { .PONumber = PO_ExtractionResult.Data.PONumber.Value, .PODate = PO_ExtractionResult.Data.PODate.Value, .VendorName = PO_ExtractionResult.Data.VendorName.Value, .VendorAddress = PO_ExtractionResult.Data.VendorAddress.Value, .CustomerName = PO_ExtractionResult.Data.CustomerName.Value, .CustomerAddress = PO_ExtractionResult.Data.CustomerAddress.Value, .TotalAmount = PO_ExtractionResult.Data.TotalAmount.Value }]" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[PO_ExtractionResult.Data.TableItems.Value]" />
                 <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{PO_ExtractionResult.Data.PONumber.Value, PO_ExtractionResult.Data.PODate.Value, PO_ExtractionResult.Data.VendorName.Value, PO_ExtractionResult.Data.VendorAddress.Value, PO_ExtractionResult.Data.CustomerName.Value, PO_ExtractionResult.Data.CustomerAddress.Value, PO_ExtractionResult.Data.TotalAmount.Value}]" DataTable="[PO_Tbl]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="382,209" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
               </Sequence>
               <Sequence x:Key="Invoice" DisplayName="Invoice_Extract_Process" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_6">
